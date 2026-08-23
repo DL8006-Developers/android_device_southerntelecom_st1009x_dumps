@@ -20,6 +20,7 @@ Partition dumps from the SmartTab ST1009X (SF_3GR) tablet by Southern Telecom.
 
 | Partition | Block Device | Description |
 |-----------|--------------|-------------|
+| DeviceID| mmcblk0p4 | Device-Specific Identifiers (not included) |
 | boot | mmcblk0p9 | Boot image (also /dev/block/by-name/ImcPartID071) |
 | system | mmcblk0p14 | System partition |
 | userdata | mmcblk0p17 | User data (not included) |
