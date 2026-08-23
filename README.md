@@ -43,3 +43,14 @@ Southern Telecom has stated they no longer have copies of the firmware. These du
 ## License
 
 These dumps are provided for preservation and development purposes only. All original firmware remains property of their respective owners.
+
+## Reassembly
+
+Some partitions are split due to GitHub file size limits. To reassemble:
+
+```bash
+# Reassemble mmcblk0p16.img
+cat mmcblk0p16.img.part_* > mmcblk0p16.img
+```
+
+Verify integrity after reassembly with sha256sum against the checksums provided.
