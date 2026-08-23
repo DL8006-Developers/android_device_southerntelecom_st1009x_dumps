@@ -55,3 +55,12 @@ cat mmcblk0p16.img.part_* > mmcblk0p16.img
 ```
 
 Verify integrity after reassembly with sha256sum against the checksums provided.
+
+## Excluded Partitions
+
+The following partitions are excluded from this dump for privacy reasons:
+
+| Partition | Reason |
+|-----------|--------|
+| mmcblk0p4 | DeviceID partition - contains unique device serial numbers |
+| mmcblk0p17 | User data partition |
