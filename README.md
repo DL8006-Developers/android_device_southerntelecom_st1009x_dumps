@@ -100,7 +100,7 @@ If your device shipped with or updated to FOTA 3.0.0, use that dump for recovery
 - Southern Telecom no longer provides firmware or kernel source
 - Vulnerable to Dirty COW (CVE-2016-5195) due to old SPL
 - Zygisk does not function properly on this device
-- Xposed v87-sdk23 from 4PDA works (use with caution, keep ADB access ready)
+- Xposed v87-sdk23 works (included in repo) (use with caution, keep ADB access ready)
 
 ## Rooting
 
